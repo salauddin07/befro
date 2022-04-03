@@ -1,0 +1,84 @@
+/* ========== GOOGLE FONT ==========  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --brand: #ff4d29;
+    --dark: #092032;
+    --body: #516171;
+    --border: rgba(0,0,0,0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    
+}
+*{
+	margin:0;
+	padding:0;
+}
+div#home {
+    background: var(--brand);
+   
+}
+
+.col-auto.social-icon {
+    float: right;
+   
+} 
+.col-auto p {
+	margin-right:15px;
+    color: #fff;
+    padding-top: 15px;
+    display: inline-block;
+
+}
+.col-auto p i {
+    vertical-align: middle;
+}
+.col-auto.social-icon a i {
+    color: #fff;
+    margin-right: 10px;
+    /* background: #ddd; */
+    background: var(--body);
+    border-radius: 50%;
+    padding: 4px 4px;
+	transition:.4s;
+	margin-top:15px;
+}
+.col-auto.social-icon a i:hover{
+	background:#fff;
+	color:var(--brand);
+}
+
+
+
+/*----2nd--->*/
+a.navbar-brand {
+    font-size: 30px ;
+    font-weight: 700 !important;
+}
+a.navbar-brand span {
+    color: var(--brand);
+}
+.navbar .navbar-nav .nav-link {
+    color: var(--dark);
+    font-size: 16px;
+    font-weight: 600;
+	transition:.5s;
+}
+.navbar .navbar-nav .nav-link:hover{
+	color:var(--brand);
+}
+a.nav-link.active {
+    color: var(--brand) !important;
+}
+a.btn.btn-brand.ms-lg-3 {
+    background: var(--brand) !important;
+	border:1px solid var(--brand) !important;
+    color: #fff !important;
+    padding: 8px 15px;
+    font-weight: 600;
+	transition:.5s;
+}
+a.btn.btn-brand.ms-lg-3:hover{
+	background:transparent !important;
+	color:var(--dark) !important;
+}
+
